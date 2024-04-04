@@ -1,0 +1,25 @@
+.card {
+  background-color: #282828;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.6),
+    1px 1px 10px rgba(255, 255, 255, 0.4), 1px 1px 15px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease-in-out, transform 0.5s ease-in-out;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  max-height: 138px;
+  max-width: 160px;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8),
+    1px 1px 20px rgba(255, 255, 255, 0.6), 1px 1px 30px rgba(255, 255, 255, 0.4);
+
+  transform: scale(1.05);
+}

@@ -1,0 +1,18 @@
+:root {
+  --grey: #282828;
+  --blue: #4d6a8e;
+  --black: #000000;
+  --white: #ffffff;
+  --light-grey: #5857578a;
+  --list-grey: #e9e5e5;
+  --dark-grey: #696c6f;
+  --hover: #0000000a;
+  --border-bottom: 1px solid rgba(224, 224, 224, 1);
+
+  --prime: #ff6e48;
+  --ciBlue: #00fff1;
+  --ciRed: #ff00aa;
+  --ciWhite: #ffffff;
+  --ciGreen: #46fcb4;
+  --ciSecond: #0c1016;
+}
